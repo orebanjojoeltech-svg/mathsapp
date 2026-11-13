@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathematics Made Easy | JSS1 & JSS2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Learning Portal</p>
+          <h1>Mathematics Made Easy</h1>
+        </div>
+        <div class="badge">JSS1 & JSS2 Syllabus</div>
+      </header>
+
+      <nav class="level-switch" aria-label="Choose class level">
+        <button class="level-btn active" data-level="jss1" type="button">JSS 1</button>
+        <button class="level-btn" data-level="jss2" type="button">JSS 2</button>
+      </nav>
+
+      <main>
+        <section class="overview" id="overview"></section>
+        <section class="topics" id="topics-container" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
